@@ -1,0 +1,90 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+:root{
+    --primary-color: #4E6056;
+    --secondary-color: #1A1C1C;
+    --tertiary-color: #5F5E5E;
+    --neutral-color: #F9F9F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: var(--neutral-color);
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.brand-logo h1 {
+    font-size: 48px;
+    font-family: Inter, sans-serif;
+    color: var(--primary-color);
+    padding: 16px 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--tertiary-color);
+    font-size: 12px;
+}
+
+.utility-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.utility-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.utility-icons .search-btn{
+    width: 17.19px;
+    height: 17.19px;
+}
+
+.utility-icons .account-btn{
+    width: 15px;
+    height: 14.62px;
+}
+
+.utility-icons .cart-btn{
+    width: 15px;
+    height: 19px;
+}
+
