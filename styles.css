@@ -88,3 +88,45 @@ body {
     height: 19px;
 }
 
+.TrendingProducts {
+    padding: 128px 64px;
+}
+
+.TrendingProducts .container {
+    gap: 64px;
+    justify-content: space-between;
+}
+
+.TrendingProducts .section-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    font-family: Inter;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.TrendingProducts .section-title .norm h2 {
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+
+.TrendingProducts .section-title .norm p {
+    font-size: 16px;
+    color: var(--tertiary-color);
+}
+
+.TrendingProducts .section-title a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+.TrendingProducts .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
