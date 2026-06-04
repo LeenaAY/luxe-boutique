@@ -74,6 +74,11 @@ body {
     font-weight: 600;
 }
 
+.nav-links .home {
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 4px;
+}
+
 .utility-icons {
     display: flex;
     align-items: center;
@@ -147,5 +152,40 @@ body {
 .TrendingProducts .products {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TrendingProducts .products .product-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(25% - 24px);
     gap: 24px;
+}
+
+.TrendingProducts .products .product-card .product-image {
+    width: 100%;
+    height: auto;
+}
+
+.TrendingProducts .products .product-card h3 {
+    font-size: 16px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.TrendingProducts .products .product-card .rating {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 4px 0;
+}
+
+.TrendingProducts .products .product-card .rating .rating-in-Stars {
+    gap: 4px;
+}
+
+.TrendingProducts .products .product-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #424844;
 }
