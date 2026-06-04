@@ -4,6 +4,18 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url('./assests/fonts/Inter-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assests/fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
 :root{
     --primary-color: #4E6056;
     --secondary-color: #1A1C1C;
@@ -19,6 +31,7 @@
 
 body {
     font-family: Inter;
+    font-weight: 400;
     background-color: var(--neutral-color);
 }
 
@@ -39,6 +52,7 @@ body {
 .brand-logo h1 {
     font-size: 48px;
     font-family: Inter, sans-serif;
+    font-weight: 600;
     color: var(--primary-color);
     padding: 16px 0;
 }
@@ -57,6 +71,7 @@ body {
     text-transform: uppercase;
     color: var(--tertiary-color);
     font-size: 12px;
+    font-weight: 600;
 }
 
 .utility-icons {
@@ -108,6 +123,8 @@ body {
 
 .TrendingProducts .section-title .norm h2 {
     font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
     color: var(--secondary-color);
     margin-bottom: 8px;
 }
@@ -118,11 +135,13 @@ body {
 }
 
 .TrendingProducts .section-title a {
-    text-decoration: none;
+    text-decoration:none;
     text-transform: uppercase;
     color: var(--primary-color);
     font-size: 12px;
+    font-weight: 600;;
     padding-bottom: 4px;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .TrendingProducts .products {
